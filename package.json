@@ -1,0 +1,23 @@
+{
+  "name": "mint-nft-polygon",
+  "version": "1.0.0",
+  "description": "Mint NFT POC for Polygon/Matic Chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NFT",
+    "ethereum",
+    "polygon",
+    "matic",
+    "2nd-layer"
+  ],
+  "author": "Varun D.Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.11.2"
+  }
+}
