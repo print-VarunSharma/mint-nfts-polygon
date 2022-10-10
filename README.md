@@ -1,5 +1,27 @@
 # Mint NFTs with Polygon (Matic)
 
+## HardHat
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
+
+Chose your Network carefully.
+
+npx hardhat run scripts/deploy.js --network goerli to deploy on the test chain
+
+npx hardhat run scripts/deploy.js --network mainnet to deploy on the live Eth chain
+
+npx hardhat run scripts/deploy.js --network mumbai to deploy on the live polygon chain
+
 ## Walkthroughs
 
 - https://betterprogramming.pub/deploying-smart-contracts-to-the-polygon-and-ethereum-blockchain-using-hardhat-and-ethers-js-2c31aa41aed0
