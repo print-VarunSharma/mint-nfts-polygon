@@ -14,6 +14,12 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 
+#### Compile
+
+npx hardhat compile
+
+#### Test Deployment
+
 Chose your Network carefully.
 
 npx hardhat run scripts/deploy.js --network goerli to deploy on the test chain

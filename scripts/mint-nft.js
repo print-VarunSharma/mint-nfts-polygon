@@ -57,5 +57,6 @@ async function mintNFT(tokenURI) {
       console.log("Promise failed:", err);
     });
 }
-
-mintNFT();
+const veMetadata =
+  "https://ipfs.io/ipfs/bafkreiff6kizp6i6zm62gk4mw4sfbx6zfujue46rzw63z336ntdcyumddm";
+mintNFT(veMetadata);

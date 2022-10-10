@@ -19,5 +19,9 @@
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "dotenv": "^16.0.3",
     "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "@openzeppelin/contracts": "^4.7.3"
   }
 }
